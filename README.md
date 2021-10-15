@@ -1,7 +1,7 @@
 # Diy-Bg-Gfx-Prot
 
 ## How to install
-- Put Event Assembler and FE8U clean rom (named as "FEU_clean.gba"), then click ```MAKE HACK.cmd```.
+- Assemble ```Buildfile.event``` by Event Assembler or refer to [Ultimate Tutorial](https://tutorial.feuniverse.us/buildbasics).
 
 ## How to compile C
 - Correctly install DevkitPro and open Msys2 in ```DrawCgCore/```, then ```sh build.sh```.
