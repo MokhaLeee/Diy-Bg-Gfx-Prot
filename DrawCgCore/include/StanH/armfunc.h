@@ -9,7 +9,7 @@ void RamFuncInit(void); //! FE8U = 0x8002AF9
 void HuffmanTextDecomp(const char* source, char* target); //! FE8U = 0x8002BA5
 void FillMovementMapCore(void); //! FE8U = 0x8002BF5
 
-void BgMap_ApplyTsa(u16* target, const void* source, u16 tileBase); //! FE8U = 0x80D74A1
+void BgMap_ApplyTsa(u16* target, const void* source, u16 tileBase); //! FE8U = 0x80D74A1	// in Mokha
 void BgMapFillRect(u16* target, int width, int height, int value); //! FE8U = 0x80D74A9
 void BgMapCopyRect(const u16* source, u16* target, int width, int height); //! FE8U = 0x80D74B9
 

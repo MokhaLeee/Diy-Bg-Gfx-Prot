@@ -57,6 +57,7 @@ extern "C" {
 #include "Mokha/mMoveUnit.h"
 #include "Mokha/mMap.h"
 #include "Mokha/mEvent.h"
+#include "Mokha/mArmFunc.h"
 
 
 #include "MokhaExt/eTHBasic.h"
