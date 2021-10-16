@@ -2,13 +2,16 @@
 #include "Extensions/Hack Installation.txt"
 #define FreeSpace $B2A610
 
+#define TsaAnime_ApplyTsa $800159D
+
+
 ORG FreeSpace
 
 // Core Hack
 ALIGN 4
 #include "DrawCgCore/DrawCgCore.lyn.event"
 
-
+MESSAGE DrawCgExample_ DrawCgExample
 
 
 
@@ -24,6 +27,10 @@ BgTSA:
 ALIGN 4
 BgPal:
 	#incbin "BgGfx/9.png.pal.dmp"
+
+
+
+
 
 
 

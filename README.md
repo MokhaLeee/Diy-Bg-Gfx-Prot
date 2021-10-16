@@ -14,3 +14,6 @@ The Gfx/TSA/Pal are all exported by ```FEBuilder -> Image Editor -> BackGround -
 Now I can correctly draw the gfx on screen. But have no idea to Show the background and lightning at the same time.In addition, I currently have no way to show Lightning in front of units, which is just like [what I made](https://feuniverse.us/t/fe8-map-tsa-anime-of-fe7s-limstella-style-big-lightning-and-adaptable-to-any-other-diy-animations/13508) on reference to TSA Anime before. 
 
 I feel that these problems are no longer something I can solve, so I decided to temporarily stop researching on this issue. I have sorted out the part of the picture display program, so that you can easily handle it and do further research. 
+
+## Logs
+- 2021.10.06 Update the decomp of function ```void BgMap_ApplyTsa(u16* dest, const u16* src, u16 tileBase); ```

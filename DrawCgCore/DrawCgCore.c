@@ -33,6 +33,18 @@ void DrawCgExample(Proc* proc){
 }
 
 
+
+#ifndef MOKHA_ARMFUNC_H
+#define MOKHA_ARMFUNC_H
+typedef struct TileTitle TileTitle;
+struct TileTitle{
+	u8 width;
+	u8 height;
+	u16 tiles[];
+};
+#endif // MOKHA_ARMFUNC_H
+
+
 void _BgMap_ApplyTsa(u16* dest, const u16* src, u16 tileBase){
 	TileTitle* tsa = (TileTitle*)src;
 	u8 Width  = tsa->width;
